@@ -100,14 +100,14 @@ public class XMLXPath {
 
 					DateFormat lFormatter = new SimpleDateFormat("yyyy-mm-dd");
 
-					Book b = new Book(eElement.getAttribute("id"),
+/*					Book b = new Book(eElement.getAttribute("id"),
 							eElement.getElementsByTagName("author").item(0).getTextContent(),
 							eElement.getElementsByTagName("title").item(0).getTextContent(),
 							eElement.getElementsByTagName("genre").item(0).getTextContent(),
 							Double.parseDouble(eElement.getElementsByTagName("price").item(0).getTextContent()),
 							(Date)lFormatter.parse(eElement.getElementsByTagName("publish_date").item(0).getTextContent()),							
 							eElement.getElementsByTagName("description").item(0).getTextContent());
-					books.add(b);
+					books.add(b);*/
 
 				}
 			}
